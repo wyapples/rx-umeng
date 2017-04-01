@@ -1,4 +1,6 @@
 <prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
+  <prescription type="service" sender="other-app" class="com.taobao.accs.ChannelService"/>
+  <prescription type="service" sender="other-app" class="com.taobao.accs.data.MsgDistributeService"/>
   <prescription type="service" sender="other-app" class="org.android.agoo.accs.AgooService"/>
   <prescription type="service" sender="other-app" class="com.umeng.message.UmengIntentService"/>
   <prescription type="service" sender="other-app" class="com.umeng.message.XiaomiIntentService"/>
