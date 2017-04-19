@@ -2,11 +2,12 @@
   <prescription type="service" sender="other-app" class="com.taobao.accs.ChannelService"/>
   <prescription type="service" sender="other-app" class="com.taobao.accs.data.MsgDistributeService"/>
   <prescription type="service" sender="other-app" class="org.android.agoo.accs.AgooService"/>
+  <prescription type="service" sender="other-app" class="org.android.agoo.client.MessageReveiverService"/>
   <prescription type="service" sender="other-app" class="com.umeng.message.UmengIntentService"/>
   <prescription type="service" sender="other-app" class="com.umeng.message.UmengMessageIntentReceiverService"/>
   <prescription type="service" sender="other-app" class="com.umeng.message.XiaomiIntentService"/>
   <prescription type="service" sender="other-app" class="com.umeng.message.provider.MessageProvider"/>
-  <prescription type="service">
+  <prescription type="broadcast" sender="any">
     <intent-filter>
       <action android:name="org.agoo.android.intent.action.RECEIVE" />
     </intent-filter>
